@@ -1,4 +1,3 @@
-# Crop_Yield_Prediction
 
 <p align="center"><img src="logo.png" /></p>
 
