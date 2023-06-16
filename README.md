@@ -59,7 +59,7 @@ pip install  -r requirements.txt
 
 ```
 
-4. Run the 
+4. Run the project 
 
 ```
 
@@ -80,12 +80,9 @@ streamlit run app.py
 
 
 
-<h3> Download & Installation </h3>
 
-```shell
-$ npm install
-$ pip install -r requirements.txt
-```
+
+
 <h3>Contributing</h3>
 Keep it simple..
 
