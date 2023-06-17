@@ -14,4 +14,4 @@ streamlit-option-menu==0.3.6
 streamlit-toggle-switch==1.0.2
 streamlit-vertical-slider==1.0.2
 numpy==1.24.1
-ydata-profiling==4.1.2
+ydata-profiling==4.1.0
