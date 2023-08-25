@@ -1,12 +1,11 @@
 import pickle 
+import time
+import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.card import card
-import pandas as pd
 from ydata_profiling import ProfileReport
-import time
-
 
 ############## page settings ##############
 st.set_page_config(page_title="Crop Yield Prediction",
@@ -48,7 +47,7 @@ if menu == "Prediction":
     
 
 
-    @st.cache_data()
+    @st.cache
     # defining the function which will make the prediction using the data which the user inputs
     def recommendation(N,P,K, temperature,humidity, ph, rainfall):
         
